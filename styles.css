@@ -20,6 +20,9 @@ body {
     width: 191px;
     height: 191px;
     border-radius: 9999px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .noti {
@@ -60,10 +63,14 @@ body {
     margin-right: auto;
 }
 
-.gallery-item {
+.gallery-item{
     background-color: blanchedalmond;
     width: 100%;
     height: 100%;
+    background-image: url("./banana.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .on-hover {

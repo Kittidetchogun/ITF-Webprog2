@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="./styles.css" />
     <script>
         function display() {
-            document.getElementsById("myusername").innerHTML = document.getElementsById("username").value + "'s Gallery";
+            new_username = document.getElementById("username").value
+            document.getElementById("myusername").innerHTML = new_username + ", Gallery"
         }
 
         function setImage() {
-            document.getElementsById("profile").style.backgroundImage = "url(" + document.getElementsById("image-url").value + ")";
+            new_avatar = document.getElementById("image-url").value
+            document.getElementById("profile").style.backgroundImage = "url('"+new_avatar+"')"
         }
     </script>
 </head>
