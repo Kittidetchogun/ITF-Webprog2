@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+}
+
+.SSS1 {
+    border: 3px solid blue;
+    width: 1024px;
+    margin: auto;
+}
+
+.Topping {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    background-color: darkgray;
+    overflow: auto;
+    width: 191px;
+    height: 191px;
+    border-radius: 9999px;
+}
+
+.noti {
+    position: absolute;
+    display: grid;
+    background-color: darkmagenta;
+    width: 50px;
+    height: 50px;
+    border-radius: 9999px;
+    right: 0;
+    bottom: 0;
+    place-items: center;
+}
+
+.item1 {
+    position: relative;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gallery {
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 300px);
+    gap: 10px;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-item {
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100%;
+}
+
+.on-hover {
+    text-decoration: none;
+    color: black;
+}
+
+.on-hover:hover {
+    text-decoration: underline;
+    color: blue;
+}
